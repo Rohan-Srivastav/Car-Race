@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	background-image: url("racing car bg.gif");
+    background-position: center;
+    background-size: cover;
+}
+#myCanvas
+{
+	border-width:10px;
+	background-color: white; 
+	border-style:ridge;
+}
+
+h1,h4
+{
+	color: white !important;
+}
+</style>		
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="shortcut-icon" href="https://www.stfrancislko.org/logo.png">
+	<title>Car Race</title>
+</head>
+<body onload="add()">
+<center>
+<h1>Game Status</h1>
+<canvas id="myCanvas" width="800" height="600"></canvas>
+<h4>
+	
+	<b class="text-danger" >NOTE : </b> IF THE CARS ARE NOT VISIABLE PRESS ANY ARROW KEY
+</h4>
+<h5 class="text-capitalize text-primary"><b><u><i> Move the white car press the arrow keys and to move the green car press w for up, a for left, d for right and x for down</i></u></b></h5>
+
+</center>
+<script src="main.js">
+</script>
+</body>
+</html>
